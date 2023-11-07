@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.mobile-screen {
+  width: 375px;
+  background-color: #fff;
+  margin: 50px auto;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-icon {
+  font-size: 24px;
+}
+
+.buttons img {
+  width: 70%;
+}
+
+.app-name {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.user-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 20px;
+}
+
+.dropdown {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.sun {
+  background-color: #ffe600;
+}
+
+.moon {
+  background-color: #ffe600;
+}
+
+.doc {
+  background-color: #ffe600;
+}
+
+.cal {
+  background-color: #ffe600;
+}

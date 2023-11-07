@@ -1,0 +1,93 @@
+
+element.style {
+a:link {
+    color: #fff;
+    text-decoration: none;
+}
+.backBtn {
+    width: 6.6rem;
+    height: 5rem;
+    top: 0.5rem;
+    left: 0;
+    display: block;
+    position: absolute;
+    border-right: 1px dotted #999;
+}
+img, h1, div, p, a {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+a {
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    background: transparent;
+    -webkit-tap-highlight-color: rgba(0,0,0,.0);
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+div {
+    -webkit-tap-highlight-color: rgba(0,0,0,.0);
+}
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+    height: 100%;
+    overflow: auto;
+    line-height: 1.5;
+    color: #5D5E5E;
+    background: #fff;
+    font-size: 1.6rem;
+    font-family: 'googlesans', 'Noto Sans JP', "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+    -webkit-text-size-adjust: 100%;
+}
+:root {
+    --swiper-navigation-size: 44px;
+}
+:root {
+    --swiper-theme-color: #007aff;
+}
+html {
+    font-size: 62.5%;
+    font-size: calc(1em*.625);
+    height: 100%;
+    /* overflow: hidden; */
+}
+.backBtn::before {
+    width: 6.6rem;
+    height: 4rem;
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 1rem 1rem 1rem 0;
+    border-color: transparent #999 transparent transparent;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+}
